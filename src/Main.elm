@@ -42,6 +42,7 @@ view model =
         , h1 [] [ text "Your Elm App is working!" ]
         , h1 [] [ text "Your Elm App is working!" ]
         , h1 [] [ text "Your Elm App is working!" ]
+        , h1 [] [ text "Your Elm App is working!" ]
         ]
 
 
