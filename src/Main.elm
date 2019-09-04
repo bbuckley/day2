@@ -21,12 +21,18 @@ curVal model =
 
 
 type alias Model =
-    { curIndex : Int, cycle : List Int }
+    { curIndex : Int
+    , cycle : List Int
+    }
 
 
 init : ( Model, Cmd Msg )
 init =
-    ( { curIndex = 0, cycle = [ 4, 1, 2 ] }, Cmd.none )
+    ( { curIndex = 0
+      , cycle = [ 4, 1, 2 ]
+      }
+    , Cmd.none
+    )
 
 
 
