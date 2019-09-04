@@ -45,7 +45,12 @@ update msg model =
             ( model, Cmd.none )
 
         Cycle ->
-            ( { model | curIndex = modBy (List.length model.cycle) (model.curIndex + 1) }, Cmd.none )
+            ( { model
+                | curIndex =
+                    modBy (List.length model.cycle) (model.curIndex + 1)
+              }
+            , Cmd.none
+            )
 
 
 
